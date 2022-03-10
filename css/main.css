@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 35px;
+  position: absolute;
+}
+
+header img {
+  width: 35px;
+  height: 35px;
+}
+
+header nav a {
+  color: white;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.intro {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url(../img/hero3.jpg);
+  height: 100vh;
+  background-position: 30% 70%;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  padding: 40px;
+}
+
+.intro .text {
+  width: 50%;
+}
+
+.intro .text h1 {
+  font-size: 3.5em;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.intro .text p {
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.intro .text button {
+  background: #5924ec;
+  border: 3px solid #5924ec;
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.intro .text button:hover {
+  transition: all ease 0.3s;
+  background: transparent;
+  color: #5924ec;
+}
+
+main .first_info {
+  padding: 30px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+main .first_info .text {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+main .first_info .text h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+main .first_info .text p {
+  font-size: 0.9em;
+}
+
+main .first_info .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+main .first_info .content > div {
+  width: 30%;
+}
+
+main .first_info .content > div img {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 62px;
+  margin-bottom: 20px;
+  border: 3px solid transparent;
+}
+
+main .first_info .content > div p {
+  font-weight: 300;
+}
+
+main .first_info .content > div h3 {
+  margin-bottom: 20px;
+}
+
+main .first_info .content > div:hover > img {
+  transition: ease all 0.3s;
+  border: 3px solid #5924ec;
+}
+
+main .info_product {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  background: rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+}
+
+main .info_product img {
+  width: 45%;
+}
+
+main .info_product .text {
+  width: 45%;
+}
+
+main .info_product .text h2 {
+  margin-bottom: 20px;
+}
+
+main .info_product .text .paragraph {
+  margin-bottom: 20px;
+}
+
+main .info_product .text .item {
+  margin-bottom: 10px;
+}
+
+main .info_product .text button {
+  background: #5924ec;
+  border: 3px solid #5924ec;
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+main .info_product .text button:hover {
+  transition: all ease 0.3s;
+  background: transparent;
+  color: #5924ec;
+}
+
+main .reviews {
+  padding: 20px;
+}
+
+.glide__slide {
+  padding: 40px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.glide__slide img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 70px;
+}
+
+.glide__slide .talk {
+  font-size: 0.9em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.glide__slide .name {
+  margin-bottom: 10px;
+}
+
+.glide__slide .stars {
+  color: gold;
+}
+
+main > .paragraph {
+  padding: 10px;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.99),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../img/feature_bg.jpg);
+  background-position: 50% center;
+}
+
+main .paragraph .text {
+  width: 50%;
+  margin: 90px;
+  font-family: "Poppins";
+}
+
+main .paragraph h2 {
+  font-size: 2.2em;
+}
+
+main .paragraph h3 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+main .paragraph p {
+  margin-bottom: 20px;
+}
+
+main .stadistics {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0;
+  font-family: "Poppins";
+}
+
+main .stadistics > div i {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #5924ec;
+}
+
+main .stadistics > div h3 {
+  font-weight: normal;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+main .plans {
+  background: rgba(0, 0, 0, 0.05);
+  font-family: "Poppins";
+  text-align: center;
+  padding: 60px 0;
+}
+
+main .plans .text {
+  margin-bottom: 50px;
+}
+
+main .plans .text h2 {
+  margin-bottom: 10px;
+}
+
+main .plans .text p {
+  font-weight: lighter;
+}
+
+main .plans .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .plans .content .card {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  width: 30%;
+}
+
+main .plans .content .card img {
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+main .plans .content .card h4 {
+  margin-bottom: 20px;
+}
+
+main .plans .content .card h2,
+main .plans .content .card p {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main .plans .content .card ul {
+  margin-bottom: 20px;
+}
+
+main .plans .content .card ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+main .plans .content .card button {
+  background: #5924ec;
+  border: 3px solid #5924ec;
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+main .plans .content .card button:hover {
+  transition: all ease 0.3s;
+  background: transparent;
+  color: #5924ec;
+}
+
+main .sponsors {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .sponsors img {
+  width: 15%;
+}
+
+main .free_trial {
+  font-family: "Poppins";
+  padding: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+main .free_trial h2 {
+  margin-bottom: 10px;
+}
+
+main .free_trial p {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+main .free_trial .entry {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+main .free_trial input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+}
+
+main .free_trial input:focus {
+  outline: none;
+}
+
+main .free_trial button {
+  width: 30%;
+  background: #5924ec;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+footer img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+footer nav {
+  margin-bottom: 10px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  margin-right: 10px;
+}
+
+footer nav a:nth-child(4) {
+  margin-right: 0;
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.5);
+}
