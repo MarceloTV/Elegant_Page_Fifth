@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -31,11 +36,64 @@ header nav a {
   font-family: "Poppins";
 }
 
+header i {
+  display: none !important;
+  font-size: 2em;
+  color: #fff;
+}
+
+.mobile_menu {
+  transition: all ease 0.3s;
+  font-family: "Poppins";
+  position: fixed;
+  left: -100%;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  padding: 10px;
+  display: none;
+}
+
+.mobile_menu div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.mobile_menu h2 {
+  font-size: 1.5em;
+}
+
+.mobile_menu i {
+  font-size: 1.5em;
+}
+
+.mobile_menu nav {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mobile_menu nav a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.show {
+  left: 0;
+}
+
 .intro {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
     url(../img/hero3.jpg);
   height: 100vh;
-  background-position: 30% 70%;
+  background-position: 0% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: flex-end;
   color: white;
@@ -94,6 +152,7 @@ main .first_info .text p {
 
 main .first_info .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 150px;
 }
@@ -207,6 +266,8 @@ main > .paragraph {
     ),
     url(../img/feature_bg.jpg);
   background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main .paragraph .text {
@@ -233,6 +294,7 @@ main .stadistics {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   padding: 80px 0;
   font-family: "Poppins";

@@ -9,8 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
 </head>
 <body>
+    <div class="mobile_menu" id="menu">
+        <div>
+            <h2>Menu</h2>
+            <i id="close" class="fa-solid fa-x"></i>
+        </div>
+        <hr>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">services</a>
+            <a href="#">features</a>
+            <a href="#">reviews</a>
+            <a href="#">pricing</a>
+            <a href="#">contact</a>
+        </nav>
+    </div>
     <header>
         <img src="./img/logo.png" alt="logo">
         <nav class="menu">
@@ -21,6 +37,7 @@
             <a href="#">pricing</a>
             <a href="#">contact</a>
         </nav>
+        <i id="open" class="fa-solid fa-bars"></i>
     </header>
     <div class="intro">
         <div class="text">
@@ -123,7 +140,7 @@
         
                     <div class="glide__slide">
                         <img src="./img/testimonial3.jpg" alt="testimonial">
-                        <p>
+                        <p class="talk">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.<br>Etiam fermentum nisl ac venenatis rhoncus.
                         </p>
         
@@ -140,7 +157,7 @@
         
                     <div class="glide__slide">
                         <img src="./img/testimonial1.jpg" alt="testimonial">
-                        <p>
+                        <p class="talk">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.<br>Etiam fermentum nisl ac venenatis rhoncus.
                         </p>
         

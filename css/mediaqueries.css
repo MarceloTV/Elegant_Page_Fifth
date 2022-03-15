@@ -1,0 +1,210 @@
+@media screen and (max-width: 1175px) {
+  .intro {
+    background-position: 80% 80%;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .intro .text {
+    width: 60%;
+  }
+
+  main .free_trial .entry {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .intro .text {
+    width: 70%;
+  }
+
+  main .first_info .content > div {
+    width: 45%;
+  }
+
+  main .info_product {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  main .info_product img {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  main .info_product .text {
+    width: 60%;
+  }
+
+  main .third_info {
+    flex-direction: column-reverse;
+  }
+
+  main .plans .content .card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .intro .text {
+    width: 80%;
+  }
+
+  main .paragraph .text {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header nav {
+    display: none;
+  }
+
+  header i {
+    display: block !important;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .intro .text {
+    width: 90%;
+  }
+
+  main .sponsors {
+    flex-wrap: wrap;
+  }
+
+  main .sponsors img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .intro .text {
+    width: 100%;
+  }
+
+  main .first_info .content > div {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  main .glide__slide .talk {
+    width: 100%;
+  }
+
+  main .plans .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .plans .content .card {
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  main .plans .content .card:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  main .free_trial .entry {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  main .info_product .text,
+  main .info_product img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro .text h1 {
+    font-size: 3em;
+  }
+
+  main .first_info .content > div {
+    width: 90%;
+  }
+
+  main > .paragraph {
+    background-position: 100% center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro .text h1 {
+    font-size: 2.5em;
+  }
+
+  main .stadistics > div {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  main .free_trial .entry {
+    width: 100%;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .intro .text h1 {
+    font-size: 2em;
+  }
+
+  main .paragraph {
+    text-align: center;
+  }
+
+  main .paragraph h2 {
+    font-size: 2em;
+  }
+
+  main .paragraph h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .intro .text h1 {
+    font-size: 1.5em;
+  }
+
+  .intro .text p {
+    font-size: 0.8em;
+  }
+
+  main .first_info .content > div {
+    width: 100%;
+  }
+
+  main .plans .content .card {
+    width: 99%;
+  }
+
+  main .free_trial {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 265px) {
+  .intro .text button {
+    padding: 10px 45px;
+  }
+
+  main .stadistics > div {
+    width: 100%;
+  }
+}
